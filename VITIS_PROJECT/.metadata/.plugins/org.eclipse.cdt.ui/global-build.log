@@ -1,0 +1,24 @@
+Nothing to build in platform 'uart_test_hw'
+
+11:03:07 **** Incremental Build of configuration Debug for project UART_TEST_FW ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/VITIS_PROJECT/uart_test_hw/export/uart_test_hw/sw/uart_test_hw/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:60:5: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
+   60 |     MB_Sleep(1000);
+      |     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: UART_TEST_FW.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/VITIS_PROJECT/uart_test_hw/export/uart_test_hw/sw/uart_test_hw/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "UART_TEST_FW.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: UART_TEST_FW.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size UART_TEST_FW.elf  |tee "UART_TEST_FW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2364	    272	   3108	   5744	   1670	UART_TEST_FW.elf
+'Finished building: UART_TEST_FW.elf.size'
+' '

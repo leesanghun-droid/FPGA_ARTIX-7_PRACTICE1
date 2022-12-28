@@ -1,0 +1,414 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Dec 28 05:38:12 2022
+# Process ID: 22916
+# Current directory: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22776 C:\Users\lsh\Desktop\FPGA_ARTIX-7_PRACTICE1\ARTY-A7_TEST\ARTY-A7_TEST.xpr
+# Log file: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/vivado.log
+# Journal file: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST\vivado.jou
+# Running On: DESKTOP-PLL5ENH, OS: Windows, CPU Frequency: 3610 MHz, CPU Physical cores: 12, Host memory: 16982 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::arty-a7-35:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1207.227 ; gain = 401.180
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd>...
+Successfully read diagram <design_1> from block design file <C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:11.0 microblaze_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0
+apply_board_connection -board_interface "reset" -ip_intf "proc_sys_reset_0/ext_reset" -diagram "design_1" 
+INFO: [BoardInterface 100-3] current_bd_design design_1
+INFO: [BoardInterface 100-10] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells -quiet /proc_sys_reset_0]
+INFO: [BoardInterface 100-12] set_property CONFIG.RESET_BOARD_INTERFACE reset [get_bd_cells -quiet /proc_sys_reset_0]
+INFO: [BoardInterface 100-110] create_bd_port -dir I reset -type rst
+INFO: [BoardInterface 100-107] set_property CONFIG.POLARITY  /reset
+INFO: [BoardInterface 100-111] connect_bd_net /reset /proc_sys_reset_0/ext_reset_in
+INFO: [BoardInterface 100-123] set_property CONFIG.POLARITY ACTIVE_LOW /reset
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'apply_board_connection -board_interface "reset" -ip_intf "proc_sys_reset_0/ext_reset" -diagram "design_1" '
+INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+apply_board_connection -board_interface "sys_clock" -ip_intf "clk_wiz_0/clock_CLK_IN1" -diagram "design_1" 
+INFO: [BoardInterface 100-3] current_bd_design design_1
+INFO: [BoardInterface 100-10] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells -quiet /clk_wiz_0]
+INFO: [BoardInterface 100-12] set_property CONFIG.CLK_IN1_BOARD_INTERFACE sys_clock [get_bd_cells -quiet /clk_wiz_0]
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+INFO: [BoardInterface 100-110] create_bd_port -dir I sys_clock -type clk
+INFO: [BoardInterface 100-105] set_property CONFIG.FREQ_HZ 100000000 /sys_clock
+INFO: [BoardInterface 100-106] set_property CONFIG.PHASE 0.0 /sys_clock
+INFO: [BoardInterface 100-111] connect_bd_net /sys_clock /clk_wiz_0/clk_in1
+INFO: [BoardInterface 100-114] set_property CONFIG.FREQ_HZ 100000000 /sys_clock
+endgroup
+apply_board_connection -board_interface "reset" -ip_intf "/clk_wiz_0/reset" -diagram "design_1" 
+INFO: [BoardInterface 100-3] current_bd_design design_1
+INFO: [BoardInterface 100-12] set_property CONFIG.RESET_BOARD_INTERFACE reset [get_bd_cells -quiet /clk_wiz_0]
+INFO: [BoardInterface 100-110] create_bd_port -dir I reset -type rst
+INFO: [BoardInterface 100-107] set_property CONFIG.POLARITY  /reset
+INFO: [BoardInterface 100-111] connect_bd_net /reset /clk_wiz_0/reset
+INFO: [BoardInterface 100-123] set_property CONFIG.POLARITY ACTIVE_LOW /reset
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_0
+apply_board_connection -board_interface "usb_uart" -ip_intf "axi_uartlite_0/UART" -diagram "design_1" 
+INFO: [BoardInterface 100-3] current_bd_design design_1
+INFO: [BoardInterface 100-10] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells -quiet /axi_uartlite_0]
+INFO: [BoardInterface 100-12] set_property CONFIG.UARTLITE_BOARD_INTERFACE usb_uart [get_bd_cells -quiet /axi_uartlite_0]
+INFO: [BoardInterface 100-108] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:uart_rtl:1.0 usb_uart
+INFO: [BoardInterface 100-109] connect_bd_intf_net /usb_uart /axi_uartlite_0/UART
+endgroup
+set_property -dict [list \
+  CONFIG.C_DEBUG_ENABLED {1} \
+  CONFIG.G_TEMPLATE_LIST {8} \
+] [get_bd_cells microblaze_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/microblaze_0 (Periph)} Slave {/axi_uartlite_0/S_AXI} ddr_seg {Auto} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins axi_uartlite_0/S_AXI]
+Slave segment '/axi_uartlite_0/S_AXI/Reg' is being assigned into address space '/microblaze_0/Data' at <0x4060_0000 [ 64K ]>.
+regenerate_bd_layout -routing
+set_property location {3 1037 371} [get_bd_cells axi_uartlite_0]
+set_property location {0.5 -179 420} [get_bd_cells clk_wiz_0]
+set_property location {2 238 130} [get_bd_cells rst_clk_wiz_0_100M]
+set_property location {2.5 706 456} [get_bd_cells microblaze_0_axi_periph]
+set_property location {3 689 123} [get_bd_cells microblaze_0_axi_periph]
+set_property location {4 1066 118} [get_bd_cells axi_uartlite_0]
+set_property location {4 1057 136} [get_bd_cells axi_uartlite_0]
+set_property location {1 -89 715} [get_bd_cells rst_clk_wiz_0_100M]
+set_property location {0.5 -514 582} [get_bd_cells clk_wiz_0]
+set_property location {2 -140 140} [get_bd_cells rst_clk_wiz_0_100M]
+set_property location {1 -456 -41} [get_bd_cells clk_wiz_0]
+startgroup
+set_property location {-676 -29} [get_bd_ports reset]
+set_property location {-676 -59} [get_bd_ports sys_clock]
+endgroup
+regenerate_bd_layout -routing
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+apply_board_connection -board_interface "led_4bits" -ip_intf "axi_gpio_0/GPIO" -diagram "design_1" 
+INFO: [BoardInterface 100-3] current_bd_design design_1
+INFO: [BoardInterface 100-10] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells -quiet /axi_gpio_0]
+INFO: [BoardInterface 100-12] set_property CONFIG.GPIO_BOARD_INTERFACE led_4bits [get_bd_cells -quiet /axi_gpio_0]
+INFO: [BoardInterface 100-108] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 led_4bits
+INFO: [BoardInterface 100-109] connect_bd_intf_net /led_4bits /axi_gpio_0/GPIO
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+Slave segment '/axi_gpio_0/S_AXI/Reg' is being assigned into address space '/microblaze_0/Data' at <0x4000_0000 [ 64K ]>.
+make_wrapper -files [get_files C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd] -top
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/microblaze_0/Data' to master interface '/microblaze_0/DLMB'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/microblaze_0/Instruction' to master interface '/microblaze_0/ILMB'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /rst_clk_wiz_0_100M'
+WARNING: [xilinx.com:ip:microblaze:11.0-9] /microblaze_0: MicroBlaze needs to have memory mapped to address range 0x00000000 - 0x0000004F. Your processor may function incorrectly without this memory. In most cases this memory would be local memory, connected to the Data and Instruction Local Memory Bus (LMB).
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+ERROR: [BD 41-238] Port/Pin property POLARITY does not match between /clk_wiz_0/reset(ACTIVE_HIGH) and /reset(ACTIVE_LOW)
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd 
+ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors.
+set_property -dict [list CONFIG.POLARITY ACTIVE_HIGH] [get_bd_ports reset]
+make_wrapper -files [get_files C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/design_1.bd] -top
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/microblaze_0/Data' to master interface '/microblaze_0/DLMB'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/microblaze_0/Instruction' to master interface '/microblaze_0/ILMB'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /rst_clk_wiz_0_100M'
+WARNING: [xilinx.com:ip:microblaze:11.0-9] /microblaze_0: MicroBlaze needs to have memory mapped to address range 0x00000000 - 0x0000004F. Your processor may function incorrectly without this memory. In most cases this memory would be local memory, connected to the Data and Instruction Local Memory Bus (LMB).
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\lsh\Desktop\FPGA_ARTIX-7_PRACTICE1\ARTY-A7_TEST\ARTY-A7_TEST.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+add_files -norecurse c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/utils_1/imports/synth_1/AND_TEST.dcp with file C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/synth_1/AND_TEST.dcp
+launch_runs synth_1 -jobs 20
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [HWH 41-1378] This design does not contain any "MEMORY" mapped segment for processor microblaze_0
+Exporting to file c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_uartlite_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_clk_wiz_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_microblaze_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_rst_clk_wiz_0_100M_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_xbar_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_uartlite_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_clk_wiz_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_microblaze_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_rst_clk_wiz_0_100M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_xbar_0
+[Wed Dec 28 05:45:32 2022] Launched design_1_axi_uartlite_0_0_synth_1, design_1_microblaze_0_0_synth_1, design_1_clk_wiz_0_0_synth_1, design_1_xbar_0_synth_1, design_1_rst_clk_wiz_0_100M_0_synth_1, design_1_axi_gpio_0_0_synth_1...
+Run output will be captured here:
+design_1_axi_uartlite_0_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_axi_uartlite_0_0_synth_1/runme.log
+design_1_microblaze_0_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_microblaze_0_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_xbar_0_synth_1/runme.log
+design_1_rst_clk_wiz_0_100M_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_rst_clk_wiz_0_100M_0_synth_1/runme.log
+design_1_axi_gpio_0_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_axi_gpio_0_0_synth_1/runme.log
+[Wed Dec 28 05:45:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/synth_1/runme.log
+reset_run synth_1
+reset_run design_1_microblaze_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_microblaze_0_0_synth_1
+
+reset_run design_1_xbar_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_xbar_0_synth_1
+
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_microblaze_0_0
+[Wed Dec 28 05:46:18 2022] Launched design_1_microblaze_0_0_synth_1, design_1_xbar_0_synth_1...
+Run output will be captured here:
+design_1_microblaze_0_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_microblaze_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/design_1_xbar_0_synth_1/runme.log
+[Wed Dec 28 05:46:18 2022] Launched synth_1...
+Run output will be captured here: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.dcp' for cell 'design_1_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.dcp' for cell 'design_1_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp' for cell 'design_1_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.dcp' for cell 'design_1_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/design_1_rst_clk_wiz_0_100M_0.dcp' for cell 'design_1_i/rst_clk_wiz_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/microblaze_0_axi_periph/xbar'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 2042.625 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 283 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/design_1_rst_clk_wiz_0_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/design_1_rst_clk_wiz_0_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/design_1_rst_clk_wiz_0_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/design_1_rst_clk_wiz_0_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a'. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.srcs/constrs_1/new/AND_TEST.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Memdata 28-127] data2mem failed because the ADDRESS_SPACE specification is incorrect or empty. Check the bmm file or the bmm_info_* properties. The design BRAM initialization strings have not been updated.
+ 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2660.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 209 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2770.449 ; gain = 727.824
+launch_runs impl_1 -jobs 8
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2830.750 ; gain = 0.523
+WARNING: [Common 17-210] 'write_hwdef' is deprecated.
+[Wed Dec 28 06:10:42 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 2841.320 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 2919.801 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 2919.801 ; gain = 0.000
+CRITICAL WARNING: [Memdata 28-127] data2mem failed because the ADDRESS_SPACE specification is incorrect or empty. Check the bmm file or the bmm_info_* properties. The design BRAM initialization strings have not been updated.
+ 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2919.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 96 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 32 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 28 06:12:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319756250A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+create_hw_cfgmem -hw_device [get_hw_devices xc7a35t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/impl_1/design_1_wrapper.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/ARTY-A7_TEST/ARTY-A7_TEST.runs/impl_1/design_1_wrapper.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+startgroup 
+create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0];
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s).
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 18   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:00:53 . Memory (MB): peak = 5549.645 ; gain = 0.000
+endgroup
+write_hw_platform -fixed -include_bit -force -file C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1//uart_microblaze_hw.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/uart_microblaze_hw.xsa ...
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/uart_microblaze_hw.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2022.2/data/embeddedsw) loading 1 seconds
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 28 06:47:30 2022...

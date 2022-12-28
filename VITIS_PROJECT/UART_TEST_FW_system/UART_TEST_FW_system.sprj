@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="UART_TEST_FW_system" platform="C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/VITIS_PROJECT/uart_test_hw/export/uart_test_hw/uart_test_hw.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" sysConfig="uart_test_hw" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.663508399">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="UART_TEST_FW" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.2016404508">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="UART_TEST_FW" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
