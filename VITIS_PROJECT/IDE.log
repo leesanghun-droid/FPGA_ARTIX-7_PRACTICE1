@@ -124,3 +124,4 @@ con
 
 11:03:53 INFO  : Launch script is exported to file 'C:\Users\lsh\Desktop\FPGA_ARTIX-7_PRACTICE1\VITIS_PROJECT\UART_TEST_FW_system\_ide\scripts\systemdebugger_uart_test_fw_system_standalone.tcl'
 11:04:15 INFO  : Disconnected from the channel tcfchan#4.
+11:07:08 DEBUG : Logs will be stored at 'C:/Users/lsh/Desktop/FPGA_ARTIX-7_PRACTICE1/VITIS_PROJECT/IDE.log'.
